@@ -1,0 +1,18 @@
+# Class report (portfolio omits written report assets)
+report/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+
+# Local backups
+*.bak
+
+# Raw EPA AQS daily extracts are huge (~200MB+ per file). Use processed CSVs or
+# download fresh copies into data/raw/ — see README.
+data/raw/*.csv
